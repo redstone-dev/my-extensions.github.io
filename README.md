@@ -1,28 +1,9 @@
+# LEGEND
+- `#com` : domain thingy | Example: [[github.io]]
+- `!i()i!` : comment in aQJS\*
 # About
 This is a repository for a Tampermonkey userscript.
-# How to get
-use `
-var name = ("my-extensions")
-var x =
-func Get{
-parameters:{
-  name=
-  
-};
-%!!cdata{
-if $BROWSER_ IE{
-
-README.parse@{{GitHub}}
-JS.parse@{{GitHub}}
-
-}elseif $BROWSER_ Firefox{
-$REPOSITORY_[parse]
-%!!mute $BROWSERCHECK_
-}else{
-$REPOSITORY >> %Global{
-  
-}
-}
-
-}cdata!!%
-`. ( aQJS )
+# How to get (aQJS 2 & higher)
+use `%!!cdata[[import($REPO(ME.G#io|com)) !i(look at #LEGEND )!`
+***
+\* Single-line comment only. Multi-line comment: i{}i
