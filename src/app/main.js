@@ -1,54 +1,35 @@
-/*
-==UserScript==
-Main
----------------------------------
-@name         R2010's Extensions
-@icon         https://angular.io/assets/images/logos/angular/angular.svg
-@namespace    *://scratch.mit.edu/projects/*
-@version      1.0.0 - Pre-release
-@description  try to take over the world!
-@author       redstonelasher2010 on Scratch
----------------------------------
-Matches
----------------------------------
-@match        https://scratch.mit.edu/projects/*
-@match        https://github.io/
-@match        https://github.com/
----------------------------------
-
-Grants
----------------------------------
-@grant        https://github.com/
-@grant        https://github.io/
----------------------------------
-
-Requirements
----------------------------------
-@require      https://github.com/
-@require      https://github.io/
-@require      https://angular.io/
----------------------------------
-
-Resources
----------------------------------
-@resource     https://angular.io/
-@resource     https://scratch.mit.edu
----------------------------------
-==/UserScript==
-*/
-'use strict';
 (function() {
+	/*
+Constants
+---------------------------
+*/
 
-const compile = function toSwift(){ 
-    // // this function should compile code in here to swift \\ \\
-    
-}
-/*
+	var compile = function toSwift(CODE){  
+		// This function should compile code in here to Swift (Or JSON)
+		var $TEXT = console.log(CODE);
+		var $Compiler = $TEXT.compile($TEXT);
+		log($Compiler);
+	};
+	/*
 Variables
 ----------------------------
 */
-var nil = null;
-var Scope = 'object.scope';
-var x = '$' + nil .'compileToSwift.' + Scope + '{(item=[strictmode] >> type=[in] >> in(([function]))';
-console.log(x);
+
+	function log(str){
+		console.log(str);
+	}
+	var nil = null;
+	var Scope = 'object.scope';
+	var a = '$SERVER_IMPORT.compileToSwift.' + Scope + '{(item=[strictmode] >> type=[in] >> in(([function]))';
+	log(a);
+    function editor(){
+	var editor = ["code", "BG", "menu", "btns", "search"];
+	var b = editor[0];
+	var c = editor[1];
+	var d = editor[2];
+	var e = editor[3];
+	var f = editor[4];
+    }
+	
 })();
+
